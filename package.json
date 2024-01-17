@@ -1,0 +1,23 @@
+{
+  "name": "unit-testing-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "unit testing example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Inna Abramenko",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "c8": "^9.1.0",
+    "chai": "^5.0.0",
+    "husky": "^8.0.3",
+    "mochawesome": "^7.1.3",
+    "mocha": "^0.0.1"
+  }
+}
