@@ -1,5 +1,5 @@
 {
-    "spec": "test/numbers-validator/.isNumberEven.spec.js",
+    "spec": "test/**/*.spec.js",
     "reporter": "mochawesome"
 }
     
