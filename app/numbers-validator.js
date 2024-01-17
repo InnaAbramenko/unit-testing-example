@@ -23,8 +23,7 @@ class NumbersValidator {
      */
   getEvenNumbersFromArray(arrayOfNumbers) {
     // eslint-disable-next-line max-len
-    if (Array.isArray(arrayOfNumbers) && arrayOfNumbers.every((item) => typeof item === 'number')) 
-    {
+    if (Array.isArray(arrayOfNumbers) && arrayOfNumbers.every((item) => typeof item === 'number')) {
       return arrayOfNumbers.filter(this.isNumberEven);
     }
     throw new Error(`[${arrayOfNumbers}] is not an array of "Numbers"`);
